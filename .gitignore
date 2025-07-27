@@ -12,11 +12,6 @@ env/
 # It should not be committed to the repository.
 model_cache/
 
-# Output files
-# Ignore generated output files.
-output_test_case.json
-*.json
-
 # IDE / Editor specific
 .vscode/
 .idea/

@@ -38,7 +38,7 @@ To run the project without an active internet connection (e.g., in a restricted 
 **Run this command once while you have an internet connection:**
 
 ```bash
-python3 download_model.py
+python download_model.py
 ```
 
 This will download the `all-mpnet-base-v2` model (approx. 420 MB) and save it to the `model_cache` directory. The main script is pre-configured to load the model from this local path.
@@ -70,9 +70,7 @@ If you prefer not to use Docker, you can run the script directly in a local Pyth
 1.  **Create and activate a virtual environment:**
 
     ```bash
-    python3 -m venv venv
-    source venv/bin/activate
-    # On Windows, use: venv\Scripts\activate
+    python -m venv venv
     ```
 
 2.  **Install the dependencies:**

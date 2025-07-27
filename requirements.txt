@@ -1,0 +1,13 @@
+# This file lists the Python dependencies for the project.
+# These versions are pinned to ensure compatibility and avoid conflicts.
+
+# Pin NumPy to a version before 2.0 to resolve compatibility issues with torch
+numpy==1.26.4
+
+# Use a more recent version of sentence-transformers to match the model format
+# and resolve the TypeError on model loading.
+sentence-transformers==2.7.0
+
+torch==2.1.0
+PyMuPDF==1.23.8
+
