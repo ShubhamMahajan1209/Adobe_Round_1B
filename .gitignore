@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+*.egg-info/
+
+# Model Cache
+# This directory contains the large, downloaded model.
+# It should not be committed to the repository.
+model_cache/
+
+# Output files
+# Ignore generated output files.
+output_test_case.json
+*.json
+
+# IDE / Editor specific
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
