@@ -7,6 +7,6 @@ echo "Executing the content analysis script..."
 
 # Run the main python script
 # The script is located in the src/ directory
-python3 src/main.py
+python src/main.py
 
 echo "Script execution finished."
