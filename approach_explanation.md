@@ -55,7 +55,7 @@ Once the content is extracted and structured, we perform a two-stage analysis us
 The project is organized for clarity, portability, and ease of execution.
 
 ```
-your_project_name/
+Adobe-Round-1B/
 │
 ├── test_case/              # Contains input data for a sample run.
 │   ├── documents/

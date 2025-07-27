@@ -27,8 +27,8 @@ Follow these steps to set up and run the project.
 ### Step 1: Clone the Repository
 
 ```bash
-git clone <your-repository-url>
-cd your_project_name
+git clone https://github.com/ShubhamMahajan1209/Adobe_Round_1B.git
+cd Adobe-Round-1B
 ```
 
 ### Step 2: Download the Model (Offline Setup)
